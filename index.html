@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ani M.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+<div class="slides-container">
+    <div class="slides-wrapper" id="wrapper">
+        <div class="slide-item">
+            <div class="slide-item-image" style="background-image: url('images/1.jpg')">
+
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-item-image" style="background-image: url('images/2.jpg')">
+
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-item-image" style="background-image: url('images/3.jpg')">
+
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-item-image" style="background-image: url('images/4.jpg')">
+
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-item-image" style="background-image: url('images/5.jpg')">
+
+            </div>
+        </div>
+    </div>
+    <a class="nav-link prev" onclick="plusSlides(-1); pauseSlides()">
+        &#10094;
+    </a>
+    <a class="nav-link next" onclick="plusSlides(1); pauseSlides()">
+        &#10095;
+    </a>
+</div>
+<div class="dots-container" id="dots">
+    <span class="dot" onclick="currentSlide(1); pauseSlides()">
+
+    </span>
+    <span class="dot" onclick="currentSlide(2); pauseSlides()">
+
+    </span>
+    <span class="dot" onclick="currentSlide(3); pauseSlides()">
+
+    </span>
+    <span class="dot" onclick="currentSlide(4); pauseSlides()">
+
+    </span>
+    <span class="dot" onclick="currentSlide(5); pauseSlides()">
+
+    </span>
+</div>
+<div class="button-container">
+    <div class="play-button">
+        <button id="pause">&#10074;&#10074;</button>
+    </div>
+    <div class="play-button">
+        <label>
+            <input type="file" class="hidden-input">&#43;
+        </label>
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
